@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: blue;
+    padding: 20px 100px;
+}
+
+header a{
+    font-weight: bold;
+    color: white;
+    margin: 0 15px;
+}
+.siteName{
+    font-size: 96px;
+    color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+header.noAccess{
+    background-color: red;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.login input[type=password],
+.login input[type=text],
+.login select{
+    width: 200px;
+}
+
+.login label{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login label span{
+    display: block;
+    width: 70px;
+}
+
+.login .plec{
+    width: 100%;
+}
+
+.adminMenu{
+    background: gold;
+    padding: 10px 100px;
+}
+
+.adminMenu a{
+    margin: 0 15px;
+    font-weight: bold;
+    color: black;
+}
